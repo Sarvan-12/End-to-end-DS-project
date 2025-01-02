@@ -25,7 +25,10 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
         # Reading the data from MySQL
-            df = read_sql_data()
+            # df = read_sql_data()
+            # df = pd.read_csv(os.path.join('notebook/data','raw.csv'))
+            df = pd.read_csv(os.path.join('artifacts', 'raw.csv'))
+
             logging.info("Reading from MySQL database")
 
         # Create the necessary directories if they don't exist
