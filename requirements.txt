@@ -1,10 +1,13 @@
-numpy 
+numpy
 pandas
 python-dotenv
 mysql-connector-python
 PyMySQL
-scikit-learn
+scikit-learn==1.1.0  # specify a compatible version
 seaborn
 catboost
-xgboost
+xgboost==1.6.0      # specify a compatible version
+Flask
+dill
+mlflow==2.2
 # -e .
