@@ -170,3 +170,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 /artifacts
+
+# Unwanted generated files/folders
+catboost_info/
+antigravity_venv/
